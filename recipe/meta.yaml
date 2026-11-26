@@ -1,13 +1,13 @@
 {% set name = "pyprobables" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyprobables-{{ version }}.tar.gz
-  sha256: 77fef358cb70bffc2756639c30d182e7713041b99f788dfb2c5a0c5b146631ff
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pyprobables-{{ version }}.tar.gz
+  sha256: 936fe039b6413345a91307524c9be364c79c54718a6d522042769346803df071
 
 build:
   noarch: python
